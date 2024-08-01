@@ -2,10 +2,10 @@
 {
     'name': "Product Brand",
 
-    'summary': "Product Brand Details",
+    'summary': "Product Brand Details and product brand added to order line and inventory line",
 
     'description': """
-Long description of module's purpose
+Product Brand Details and product brand added to order line and inventory line
     """,
 
     'author': "My Company",
