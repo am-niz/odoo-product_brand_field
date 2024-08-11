@@ -24,8 +24,14 @@ Product Brand Details and product brand added to order line and inventory line
     'data': [
         'security/ir.model.access.csv',
         'views/product_brand.xml',
-        'views/order_line_product_brand.xml',
-        'views/inventory_line_product_brand_views.xml',
+        'views/product_template_product_brand_views.xml',
+        'views/stock_purchase_sale_menu_views.xml',
+        'views/purchase_order_line_views.xml',
+        'views/sale_order_line_views.xml',
+        'views/stock_order_line_views.xml',
+        'views/invoice_order_line_views.xml',
     ],
+    'application': True,
+    'sequence': -96,
 }
 

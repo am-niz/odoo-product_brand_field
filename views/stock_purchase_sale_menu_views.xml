@@ -1,0 +1,19 @@
+<odoo>
+    <!-- For Inventory Module -->
+    <menuitem id="menu_product_brand_inventory"
+              name="Product Brands"
+              action="action_product_brand_id"
+              parent="stock.menu_stock_inventory_control"/>
+
+    <!-- For Purchase Module -->
+    <menuitem id="menu_product_brand_purchase"
+              name="Product Brands"
+              action="action_product_brand_id"
+              parent="purchase.menu_purchase_products"/>
+
+    <!-- For Sales Module menu item -->
+    <menuitem id="menu_product_brand_sale"
+              name="Product Brands"
+              action="action_product_brand_id"
+              parent="sale.product_menu_catalog"/>
+</odoo>

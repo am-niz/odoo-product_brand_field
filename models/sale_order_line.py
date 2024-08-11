@@ -6,18 +6,19 @@ class SaleOrderLine(models.Model):
 
     product_brand_id = fields.Many2one(
         'product.brand',
-        string='Product Brand',
+        related="product_id.product_tmpl_id.product_brand_id",
+        string='Product Brand'
     )
-
-    @api.onchange('product_id')
-    def _onchange_product_id(self):
-        if self.product_id:
-            self.product_brand_id = self.product_id.product_tmpl_id.product_brand_id
-        else:
-            self.product_brand_id = False
-
-
-
+#
+#     @api.onchange('product_id')
+#     def _onchange_product_id(self):
+#         if self.product_id:
+#             self.product_brand_id = self.product_id.product_tmpl_id.product_brand_id
+#         else:
+#             self.product_brand_id = False
+#
+#
+#
 
 
 

@@ -52,8 +52,4 @@
     <field name="res_model">product.brand</field>
     <field name="view_mode">tree,form</field>
   </record>
-  <menuitem id="menu_product_brand_template"
-            name="Product Brands"
-            action="action_product_brand_id"
-            parent="sale.product_menu_catalog"/>
 </odoo>
