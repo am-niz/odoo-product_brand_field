@@ -1,6 +1,6 @@
 <odoo>
-    <record id="view_inventory_line_inherit_product_brand_id" model="ir.ui.view">
-        <field name="name">Inventory.product.brand</field>
+    <record id="view_picking_form_inherit_id" model="ir.ui.view">
+        <field name="name">stock.picking.form.inherit</field>
         <field name="model">stock.picking</field>
         <field name="inherit_id" ref="stock.view_picking_form"/>
         <field name="arch" type="xml">

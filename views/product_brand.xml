@@ -1,6 +1,6 @@
 <odoo>
-  <record id="product_brand_tree_view_id" model="ir.ui.view">
-    <field name="name">product.brand.tree.view.id</field>
+  <record id="view_product_brand_tree_view_id" model="ir.ui.view">
+    <field name="name">product.brand.tree.view</field>
     <field name="model">product.brand</field>
     <field name="arch" type="xml">
       <tree>

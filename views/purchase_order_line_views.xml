@@ -1,6 +1,6 @@
 <odoo>
-    <record id="purchase_order_line_product_brand_id" model="ir.ui.view">
-        <field name="name">purchase.order.line.product.brand.field</field>
+    <record id="purchase_order_form_inherit_id" model="ir.ui.view">
+        <field name="name">purchase.order.form.inherit</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_form"/>
         <field name="arch" type="xml">
